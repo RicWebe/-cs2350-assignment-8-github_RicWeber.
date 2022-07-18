@@ -1,0 +1,29 @@
+/* Your styles go here */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+.header{
+    flex-flow: row;
+    background-color: black;
+    padding: 6px;
+    display: flex;
+    flex-wrap: column wrap ;
+    
+ }
+ h1{
+    color: white;
+ }
+ h2{
+    color: aqua;
+    padding: 6px;
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .col img {
+    width: 300px;
+    height:200px;
+  }
+
+  
+
